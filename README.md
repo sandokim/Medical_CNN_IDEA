@@ -14,6 +14,6 @@ We also include a Gaussian noise layer and a dropout layer to avoid overfitting.
 
 <img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/overfitting방지.PNG" width="80%">
 
-#### Deep supervision 효과
+#### Deep supervision 효과 (Faster convergence, better accuracy, computational overhead)
 
 We utilize deep supervision which allows more direct backpropagation to the hidden layers for faster convergence and better accuracy [3]. Although deep supervision significantly improves convergence, it is memory expensive especially in 3D networks
