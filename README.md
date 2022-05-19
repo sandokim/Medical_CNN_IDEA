@@ -7,3 +7,7 @@
 [Multimodal volume-aware detection and segmentation for brain metastases radiosurgery](https://arxiv.org/pdf/1908.05418.pdf)
 
 [3D Segmentation with Exponential Logarithmic Loss for Highly Unbalanced Object Sizes?](https://arxiv.org/pdf/1809.00076.pdf)
+
+#### Overfitting 방지법
+
+We also include a Gaussian noise layer and a dropout layer to avoid overfitting.
