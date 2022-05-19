@@ -17,3 +17,5 @@ We also include a Gaussian noise layer and a dropout layer to avoid overfitting.
 #### Deep supervision 효과 (Faster convergence, better accuracy, computational overhead)
 
 We utilize deep supervision which allows more direct backpropagation to the hidden layers for faster convergence and better accuracy [3]. Although deep supervision significantly improves convergence, it is memory expensive especially in 3D networks
+
+[Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
