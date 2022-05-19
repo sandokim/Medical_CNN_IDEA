@@ -11,3 +11,5 @@
 #### Overfitting 방지법
 
 We also include a Gaussian noise layer and a dropout layer to avoid overfitting.
+
+<img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/overfitting방지.PNG" width="80%">
