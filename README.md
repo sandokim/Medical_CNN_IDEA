@@ -19,3 +19,7 @@ We also include a Gaussian noise layer and a dropout layer to avoid overfitting.
 We utilize deep supervision which allows more direct backpropagation to the hidden layers for faster convergence and better accuracy [3]. Although deep supervision significantly improves convergence, it is memory expensive especially in 3D networks
 
 [Focal Loss for Dense Object Detection](https://arxiv.org/pdf/1708.02002.pdf)
+
+[UNet++: A Nested U-Net Architecture for Medical Image Segmentation](https://arxiv.org/pdf/1807.10165.pdf)
+
+[Nested U-Net code; deep supervision](https://github.com/4uiiurz1/pytorch-nested-unet/blob/master/archs.py)
