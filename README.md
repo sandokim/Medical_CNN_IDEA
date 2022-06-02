@@ -22,4 +22,8 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 
 [Nested U-Net code; deep supervision](https://github.com/4uiiurz1/pytorch-nested-unet/blob/master/archs.py)
 
+---
 
+#### Vessel Segmentation
+
+[Pyramid U-Net for Retinal Vessel Segmentation](https://arxiv.org/pdf/2104.02333.pdf)
