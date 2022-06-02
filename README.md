@@ -26,6 +26,6 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 
 #### Vessel Segmentation
 
-[DeepVesselNet: Vessel Segmentation, Centerline Prediction, and Bifurcation Detection in 3-D Angiographic Volumes(https://www.frontiersin.org/articles/10.3389/fnins.2020.592352/full)
+[DeepVesselNet: Vessel Segmentation, Centerline Prediction, and Bifurcation Detection in 3-D Angiographic Volumes](https://www.frontiersin.org/articles/10.3389/fnins.2020.592352/full)
 
 [Pyramid U-Net for Retinal Vessel Segmentation](https://arxiv.org/pdf/2104.02333.pdf)
