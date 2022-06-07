@@ -32,4 +32,4 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 
 [Automatic Artery/Vein Classification Using a Vessel-Constraint Network for Multicenter Fundus Images](https://www.readcube.com/articles/10.3389/fcell.2021.659941)
 
-[Transformers in Medical Imaging: A Survey](https://arxiv.org/pdf/2201.09873.pdf)
+[Transformers in Medical Imaging: A Survey](https://arxiv.org/abs/2201.09873)
