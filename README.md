@@ -39,3 +39,8 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 [3D Medical image segmentation with transformers tutorial](https://theaisummer.com/medical-segmentation-transformers/)
 
 [Self-attention building blocks for computer vision applications in PyTorch -> Related articles](https://github.com/The-AI-Summer/self-attention-cv/tree/5246e550ecb674f60df76a6c1011fde30ded7f44)
+
+[TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/abs/2103.04430) -> the first attempt to leverage Transformers for 3D multimodal
+brain tumor segmentation by effectively modeling local
+and global features in both spatial and depth dimensions.
+
