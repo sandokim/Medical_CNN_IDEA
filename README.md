@@ -45,3 +45,7 @@ brain tumor segmentation by effectively modeling local
 and global features in both spatial and depth dimensions.
 
 Usefulness of Vit in Multi-organ Segmentation -> Multi-organ segmentation aims to segment several organs simultaneously and is challenging due to inter-class imbalance and varying sizes, shapes, and contrast of different organs. ViT models are particularly suitable for the multiorgan segmentation due to their ability to effectively model global relations and differentiate multiple organs.
+
+Pure Transformers' drawback -> Extensive experiments show the effectiveness of their convolutionfree network on three benchmark 3D medical imaging
+datasets related to brain cortical plate [154], pancreas, and hippocampus. One of the drawbacks of using Pure Transformer-based models in segmentation is the quadratic complexity of self-attention with respect to the input image dimensions. This can hinder the ViTs applicability in the segmentation of high-resolution medical images. To mitigate this issue, Cao et al. [125] propose Swin-UNet that, like Swin Transformer [126], computes self-attention within a local window and has linear computational complexity with respect to the input image. Swin-UNet also contains a patch expanding layer for upsampling decoder’s feature maps and shows superior performance in recovering fine details compared to bilinear upsampling. Experiments on Synapse and ACDC [155] dataset demonstrate the effectiveness of the Swin-UNet architectural design.
+
