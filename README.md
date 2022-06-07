@@ -65,4 +65,4 @@ Most ViT-based multi-organ segmentation approaches struggle to capture informati
 #### 3D Segmentation
 The majority of multi-scale architectures have been proposed for 2D medical image segmentation. To directly handle volumetric data, Hatamizadeh et. al. [35] propose a ViT-based architecture (UNETR) for 3D medical image segmentation. UNETR consists of a pure transformer as the encoder to learn sequence representations of the input volume. The encoder is connected to a CNNbased decoder via skip connections to compute the final segmentation output.
 
-<img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/UNETR.PNG" width="80%">
+<img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/UNETR.png" width="80%">
