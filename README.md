@@ -59,5 +59,5 @@ Few works integrate Transformer layers in both encoder and decoder of a U-shape 
 
 Similarly, to optimally combine convolution and transformer layers for medical image segmentation, Zhou et al. [144] propose nnFormer, an interleave encoder-decoder based architecture, where convolution layer encodes precise spatial information and Transformer layer encodes global context as shown in Fig. 9
 
-#### 2D Segmentation. 
+#### 2D Segmentation -> Multi-resolution Vit
 Most ViT-based multi-organ segmentation approaches struggle to capture information at multiple scales as they partition the input image into fixed-size patches, thereby losing useful information. To address this issue, Zhang et. al. [183] propose a pyramid medical transformer, PMTrans, that leverage multi-resolution attention to capture correlation at different image scales using a pyramidal architecture [201]. PMTrans works on multiresolution images via an adaptive partitioning scheme of patches to access different receptive fields without changing the overall complexity of self-attention computation.
