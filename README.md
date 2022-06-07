@@ -98,3 +98,5 @@ We created a supplemental dataset of cats & dogs in transporter crates from goog
 
 ##### Grad-CAM의 intense (red) areas에 mask로 thresholding을 주어 Data Augmentation의 효과로 인해 모델이 Cat을 더 잘 구분하는지를 확인할 수 있다.
 To see where the model is really keying in on, we created a mask that uses thresholding to capture the most intense (red) areas of the Grad-CAM. 
+
+[Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization](https://arxiv.org/pdf/1610.02391.pdf)
