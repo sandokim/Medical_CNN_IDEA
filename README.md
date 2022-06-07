@@ -95,3 +95,6 @@ Heat-map에서 고양이의 꼬리가 Blue랑 Green이면 고양이의 꼬리를
 
 ##### Albumentations -> Data Augmentation tools
 We created a supplemental dataset of cats & dogs in transporter crates from google images. Using albumentations, we beefed up the dataset with additional image augmentations.
+
+##### Grad-CAM의 intense (red) areas에 mask로 thresholding을 주어 Data Augmentation의 효과로 인해 모델이 Cat을 더 잘 구분하는지를 확인할 수 있다.
+To see where the model is really keying in on, we created a mask that uses thresholding to capture the most intense (red) areas of the Grad-CAM. 
