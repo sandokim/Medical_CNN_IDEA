@@ -74,4 +74,4 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 
 #### Taxanomy of Vit-Based medical image classification approaches
 
-<img src="https://github.com/sandokim/Hutom/blob/main/images/Taxanomy of VIT-based.PNG" width="80%">
+<img src="https://github.com/sandokim/Hutom/blob/main/images/Taxanomy of ViT-based.PNG" width="80%">
