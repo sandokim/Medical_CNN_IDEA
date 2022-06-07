@@ -31,3 +31,5 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 [Pyramid U-Net for Retinal Vessel Segmentation](https://arxiv.org/pdf/2104.02333.pdf)
 
 [Automatic Artery/Vein Classification Using a Vessel-Constraint Network for Multicenter Fundus Images](https://www.readcube.com/articles/10.3389/fcell.2021.659941)
+
+[Transformers in Medical Imaging: A Survey](https://arxiv.org/pdf/2201.09873.pdf)
