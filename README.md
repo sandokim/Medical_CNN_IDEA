@@ -66,3 +66,7 @@ Most ViT-based multi-organ segmentation approaches struggle to capture informati
 The majority of multi-scale architectures have been proposed for 2D medical image segmentation. To directly handle volumetric data, Hatamizadeh et. al. [35] propose a ViT-based architecture (UNETR) for 3D medical image segmentation. UNETR consists of a pure transformer as the encoder to learn sequence representations of the input volume. The encoder is connected to a CNNbased decoder via skip connections to compute the final segmentation output.
 
 <img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/UNETR.png" width="80%">
+
+#### Vit drawbacks 
+* The large domain gap between natural and medical image modalities hinder the usefulness of Vit-based models that are pre-trained on the ImageNet dataset.
+* Self-supervised pre-training on medical imaging datasets -> ViT pre-trained on one modality (CT) gives unsatisfactory performance when applied directly to other medical imaging modalities (MRI) due to the large domain gap
