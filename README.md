@@ -67,6 +67,6 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 
 <img src="https://github.com/Hyeseong0317/Hutom/blob/main/images/UNETR.png" width="80%">
 
-#### Vit drawbacks 
+#### The drawbacks of using ViT in Medical Imaging datasets 
 * The large domain gap between natural and medical image modalities hinder the usefulness of Vit-based models that are pre-trained on the ImageNet dataset.
 * Self-supervised pre-training on medical imaging datasets -> ViT pre-trained on one modality (CT) gives unsatisfactory performance when applied directly to other medical imaging modalities (MRI) due to the large domain gap
