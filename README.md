@@ -92,3 +92,6 @@ Grad-CAM heat-maps의 final output은 고양이의 전체적인 윤곽을 캡쳐
 
 We can use the Grad-CAM heat-maps to give us clues into why the model had trouble making the correct classification.
 Heat-map에서 고양이의 꼬리가 Blue랑 Green이면 고양이의 꼬리를 제대로 캡쳐하고 있지 못하는 것이며 이는 Grad-CAM heat-maps이 모델이 고양이의 특징을 캡쳐하지 못하고 있다는 것을 설명할 수 있는 근거가 된다.
+
+##### Albumentations -> Data Augmentation tools
+We created a supplemental dataset of cats & dogs in transporter crates from google images. Using albumentations, we beefed up the dataset with additional image augmentations.
