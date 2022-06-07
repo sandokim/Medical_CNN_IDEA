@@ -37,3 +37,5 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 [This repo supplements our Survey on Transformers in Medical Imaging](https://github.com/fahadshamshad/awesome-transformers-in-medical-imaging) - reference
 
 [3D Medical image segmentation with transformers tutorial](https://theaisummer.com/medical-segmentation-transformers/)
+
+[Self-attention building blocks for computer vision applications in PyTorch -> Related articles](https://github.com/The-AI-Summer/self-attention-cv/tree/5246e550ecb674f60df76a6c1011fde30ded7f44)
