@@ -81,3 +81,5 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 [Saliency map](https://en.wikipedia.org/wiki/Saliency_map)
 
 In computer vision, a saliency map is an image that highlights the region on which people's eyes focus first. The goal of a saliency map is to reflect the degree of importance of a pixel to the human visual system.
+
+[Understand your Algorithm with Grad-CAM](https://towardsdatascience.com/understand-your-algorithm-with-grad-cam-d3b62fce353)
