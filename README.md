@@ -89,3 +89,5 @@ In computer vision, a saliency map is an image that highlights the region on whi
 Grad-CAM heat-maps의 final output은 고양이의 전체적인 윤곽을 캡쳐하지만 Grad-CAM 앞단의 레이어들이 캡쳐했던 고양이의 특성들(눈, 수염)을 캡처하지 못하고 있다. 하지만 Grad-CAM heat-maps들의 모든 레이어들을 평균내면 Grad-CAM heat-map이 고양이의 얼굴, 눈, 발을 강조하고 사람의 손은 de-emphasize하는 것을 볼 수 있다.
 
 <img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/Grad-cam.PNG" width="80%">
+
+We can use the Grad-CAM heat-maps to give us clues into why the model had trouble making the correct classification.
