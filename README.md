@@ -77,3 +77,5 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 <img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/Taxanomy of ViT-based.PNG" width="80%">
 
 [Saliency Based Image Segmentation](https://towardsdatascience.com/saliency-based-image-segmentation-473b4cb31774)
+
+[Saliency map](https://en.wikipedia.org/wiki/Saliency_map)
