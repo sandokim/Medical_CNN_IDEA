@@ -56,3 +56,5 @@ In this category, Transformer layers are between the encoder and decoder of a U-
 
 #### Transformer in Encoder and Decoder.
 Few works integrate Transformer layers in both encoder and decoder of a U-shape architecture to better exploit the global context for medical image segmentation. The first work in this category is UTNet that efficiently reduces the complexity of the self-attention mechanism from quadratic to linear [174]. Furthermore, to model the image content effectively, UTNet exploits the two-dimensional relative position encoding [20].
+
+Similarly, to optimally combine convolution and transformer layers for medical image segmentation, Zhou et al. [144] propose nnFormer, an interleave encoder-decoder based architecture, where convolution layer encodes precise spatial information and Transformer layer encodes global context as shown in Fig. 9
