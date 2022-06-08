@@ -41,8 +41,7 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 [Self-attention building blocks for computer vision applications in PyTorch -> Related articles](https://github.com/The-AI-Summer/self-attention-cv/tree/5246e550ecb674f60df76a6c1011fde30ded7f44)
 
 [TransBTS: Multimodal Brain Tumor Segmentation Using Transformer](https://arxiv.org/abs/2103.04430) -> the first attempt to leverage Transformers for 3D multimodal
-brain tumor segmentation by effectively modeling local
-and global features in both spatial and depth dimensions.
+brain tumor segmentation by effectively modeling local and global features in both spatial and depth dimensions.
 
 [UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/pdf/2103.10504.pdf)
 
@@ -75,6 +74,10 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 * The large domain gap between natural and medical image modalities hinder the usefulness of Vit-based models that are pre-trained on the ImageNet dataset.
 * Self-supervised pre-training on medical imaging datasets -> ViT pre-trained on one modality (CT) gives unsatisfactory performance when applied directly to other medical imaging modalities (MRI) due to the large domain gap
 * Moreover, recent ViT-based approaches mainly focus on 2D medical image segmentation. Designing customized architectural components by incorporating temporal information for efficient high-resolution and high-dimensional segmentation of volumetric images has not been extensively explored. Recently, few efforts have been made, e.g., UNETR [35] uses Swin Transformer [126] based architectures to avoid quadratic computing complexity; however, it requires further attention from the community
+
+[Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) --> cited 1493 times
+
+[Swin UNETR: Swin Transformers for Semantic Segmentation of Brain Tumors in MRI Images](https://arxiv.org/abs/2201.01266) --> Apply Swin UNETR to Medical imaging
 
 #### Taxanomy of Vit-Based medical image classification approaches
 
