@@ -79,6 +79,10 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 
 <img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/Swin transformer block.PNG" width="80%">
 
+#### Dense prediction -> Pixel-level labeling is required in such tasks.
+
+<img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/dense prediction.PNG" width="80%">
+
 [Swin UNETR: Swin Transformers for Semantic Segmentation of Brain Tumors in MRI Images](https://arxiv.org/abs/2201.01266) --> Apply Swin UNETR to Medical imaging
 
 #### Taxanomy of Vit-Based medical image classification approaches
