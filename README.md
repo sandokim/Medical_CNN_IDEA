@@ -77,7 +77,7 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 
 [Swin Transformer: Hierarchical Vision Transformer using Shifted Windows](https://arxiv.org/abs/2103.14030) --> cited 1493 times
 
-<img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/Swin transformer blocks.PNG" width="80%">
+<img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/Swin transformer block.PNG" width="80%">
 
 [Swin UNETR: Swin Transformers for Semantic Segmentation of Brain Tumors in MRI Images](https://arxiv.org/abs/2201.01266) --> Apply Swin UNETR to Medical imaging
 
