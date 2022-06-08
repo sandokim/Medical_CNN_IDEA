@@ -44,6 +44,10 @@ We utilize deep supervision which allows more direct backpropagation to the hidd
 brain tumor segmentation by effectively modeling local
 and global features in both spatial and depth dimensions.
 
+[UNETR: Transformers for 3D Medical Image Segmentation](https://arxiv.org/pdf/2103.10504.pdf)
+
+<img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/UNETR.PNG" width="80%">
+
 Usefulness of Vit in Multi-organ Segmentation -> Multi-organ segmentation aims to segment several organs simultaneously and is challenging due to inter-class imbalance and varying sizes, shapes, and contrast of different organs. ViT models are particularly suitable for the multiorgan segmentation due to their ability to effectively model global relations and differentiate multiple organs.
 
 Pure Transformers' drawback -> Extensive experiments show the effectiveness of their convolutionfree network on three benchmark 3D medical imaging
