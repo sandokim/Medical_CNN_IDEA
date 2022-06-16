@@ -83,6 +83,16 @@ The majority of multi-scale architectures have been proposed for 2D medical imag
 
 <img src="https://github.com/sandokim/Medical_CNN_IDEA/blob/main/images/dense prediction.PNG" width="80%">
 
+## 논문 제출방식
+
+### CVPR 2021년 11월 제출  ---> arxiv 저장소 2022년 1월 업로드 (내 아이디어라 찜하기) --> CVPR 2022년 3월 accepted
+
+아래 연속된 두 논문은 같은 저자가 쓴 같은 아이디어의 논문입니다.
+
+[Self-Supervised Pre-Training of Swin Transformers for 3D Medical Image Analysis](https://openaccess.thecvf.com/content/CVPR2022/papers/Tang_Self-Supervised_Pre-Training_of_Swin_Transformers_for_3D_Medical_Image_Analysis_CVPR_2022_paper.pdf)
+
+### arxiv 2022년 1월 업로드한 Swin UNETR
+ 
 [Swin UNETR: Swin Transformers for Semantic Segmentation of Brain Tumors in MRI Images](https://arxiv.org/abs/2201.01266) --> Apply Swin UNETR to Medical imaging
 
 Kamnitsas et al. [22] proposed a robust segmentation model by aggregating the outputs of various CNN-based models such as 3D U-Net [12], 3D FCN [27] and Deep Medic [23]. Subsequently, Myronenko et al. [31] introduced SegResNet, which utilizes a residual encoder-decoder architecture in which an auxiliary branch is used to reconstruct the input data with a variational auto-encoder as a surrogate task. Zhou et al. [43] proposed to use an ensemble of different CNN-based networks by taking into account the multi-scale contextual information through an attention block. Zhou et al. [21] used a two-stage cascaded approach consisting of U-Net models wherein the first stage computes a coarse segmentation prediction which will be refined by the second stage. Furthermore, Isensee et al. [19] proposed the nnU-Net model and demonstrated that a generic U-Net architecture with minor modifications is enough to achieve competitive performance in multiple BraTS challenges.
